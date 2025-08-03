@@ -1,0 +1,186 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Makes width/height include padding and border */
+}
+
+/* Set global font and background */
+body {
+  font-family: Arial, sans-serif; /* Sets default font */
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark text for readability */
+  line-height: 1.6; /* Increases line spacing */
+}
+
+/* Header area styling */
+header {
+  background-color: #0077b6; /* Blue background */
+  color: white; /* White text */
+  padding: 20px;
+  text-align: center; /* Center-aligns content */
+}
+
+/* Navigation menu styles */
+nav ul {
+  list-style: none; /* Removes bullets from list */
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav ul li {
+  display: inline-block; /* Makes list items sit horizontally */
+  margin: 0 10px; /* Horizontal spacing */
+}
+
+nav ul li a {
+  color: #ffffff; /* White text for links */
+  text-decoration: none; /* Removes underline */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover for feedback */
+}
+
+/* Main content area */
+main {
+  max-width: 900px; /* Limits width for readability */
+  margin: 30px auto; /* Centers it horizontally */
+  padding: 0 20px; /* Adds padding inside */
+}
+
+/* Section headings */
+main h2 {
+  color: #0077b6; /* Matches header blue */
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+/* General paragraph and list spacing */
+p, ul {
+  margin-bottom: 20px;
+}
+
+/* Lists (like programming languages) */
+ul li {
+  margin-left: 20px; /* Indent list items */
+}
+
+/* Link for downloadable CV */
+a[href$=".pdf"] {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #0096c7;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a[href$=".pdf"]:hover {
+  background-color: #023e8a;
+}
+
+/* Contact Form Styles */
+form {
+  background-color: #ffffff; /* White form background */
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow around form */
+}
+
+form label {
+  display: block; /* Makes label take full width */
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%; /* Makes inputs span full container width */
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 15px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #005f87; /* Darker on hover */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0077b6;
+  color: white;
+  margin-top: 40px;
+}
+/* Profile Photo Styling */
+.profile-photo {
+  width: 250px;           /* Resize image */
+  height: 250px;
+  object-fit: cover;      /* Crop it to fit the frame */
+  border-radius: 50%;     /* Makes it a circle */
+  border: 3px solid #0077b6; /* Optional colored border */
+  margin-bottom: 15px;    /* Space below image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;     /* Center it horizontally */
+}
+#projects {
+  padding: 30px;
+  background-color: #f8f8f8;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 4px solid #0077b6;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #0077b6;
+}
+
+.project a {
+  color: #0096c7;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+#about {
+  padding: 20px;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+#about h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+#about p {
+  color: #555;
+  font-size: 16px;
+}
